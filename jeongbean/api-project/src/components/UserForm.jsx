@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function PostForm({ onAdd }) {
+function UserForm({ onAdd }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
 
@@ -37,4 +37,4 @@ function PostForm({ onAdd }) {
   );
 }
 
-export default PostForm;
+export default UserForm;

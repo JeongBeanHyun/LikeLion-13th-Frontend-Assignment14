@@ -1,7 +1,7 @@
 import { useState } from "react";
 import UserEdit from "./UserEdit";
 
-function PostItem({ user, onUpdate, onDelete }) {
+function UserItem({ user, onUpdate, onDelete }) {
   const [isEditing, setIsEditing] = useState(false);
 
   const handleSave = (editName) => {
@@ -33,4 +33,4 @@ function PostItem({ user, onUpdate, onDelete }) {
   );
 }
 
-export default PostItem;
+export default UserItem;

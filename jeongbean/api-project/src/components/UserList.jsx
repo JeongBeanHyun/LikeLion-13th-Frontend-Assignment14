@@ -1,6 +1,6 @@
 import UserItem from "./UserItem";
 
-function PostList({ users, onUpdate, onDelete }) {
+function UserList({ users, onUpdate, onDelete }) {
   return (
     <div className="user-list">
       {users.map((user) => (
@@ -15,4 +15,4 @@ function PostList({ users, onUpdate, onDelete }) {
   );
 }
 
-export default PostList;
+export default UserList;

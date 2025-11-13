@@ -3,7 +3,7 @@ import axios from "axios";
 import UserForm from "../components/UserForm";
 import UserList from "../components/UserList";
 
-function PostPage() {
+function UserPage() {
   const [users, setUsers] = useState([]);
   const API_URL = import.meta.env.VITE_API_URL;
 
@@ -47,4 +47,4 @@ function PostPage() {
   );
 }
 
-export default PostPage;
+export default UserPage;
